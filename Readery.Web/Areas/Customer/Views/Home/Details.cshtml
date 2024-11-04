@@ -1,0 +1,99 @@
+﻿@using Readery.Core.Models
+@model ShoppingCart
+<form method="post" asp-action="Details">
+    <input hidden asp-for="ProductId" />
+    <div class="card shadow border-0 mt-4" style="background-color: #002b36; font-size: 1.1rem;">
+        <div class="card-header bg-dark bg-gradient text-light py-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white text-uppercase" style="font-size: 2rem;">@Model.Product.Title</h2>
+                    <p class="text-light fw-semibold mb-0" style="font-size: 1.25rem;">by @Model.Product.Author</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="py-3">
+                <div class="row mb-3">
+                    <div class="col-6 col-md-2 offset-lg-1 text-end">
+                        <a class="btn btn-primary" asp-area="Customer" asp-controller="Product" asp-action="Index" style="font-size: 1.1rem;">
+                            Back to Home
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 offset-lg-1 text-center mb-3">
+                        <img src="~/images/products/@Model.Product.ImageUrl" class="rounded img-fluid" alt="@Model.Product.Title" />
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-1">
+                        <div class="col-12 col-md-6 pb-4">
+                            <span class="badge bg-warning text-dark" style="font-size: 1rem;">@Model.Product.Category.Name</span>
+                        </div>
+                        <div class="row ps-2">
+                            <h6 class="text-light" style="font-size: 1.2rem;">ISBN : @Model.Product.ISBN</h6>
+                        </div>
+                        <div class="row ps-2">
+                            <h6 class="text-light pb-2" style="font-size: 1.2rem;">
+                                List Price:
+                                <span class="text-decoration-line-through text-danger">
+                                    @Model.Product.ListPrice
+                                </span>
+                            </h6>
+                        </div>
+                        <div class="row text-center ps-2 mb-3">
+                            <div class="p-1 col-3 col-lg-2 bg-light border-bottom">
+                                <div class="text-dark fw-semibold">Quantity</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light border-bottom">
+                                <div class="text-dark fw-semibold">1-50</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light border-bottom">
+                                <div class="text-dark fw-semibold">51-100</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light border-bottom">
+                                <div class="text-dark fw-semibold">100+</div>
+                            </div>
+                        </div>
+                        <div class="row text-center ps-2">
+                            <div class="p-1 col-3 col-lg-2 bg-light text-warning fw-bold">
+                                <div>Price</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light text-warning fw-bold">
+                                <div>@Model.Product.Price</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light text-warning fw-bold">
+                                <div>@Model.Product.Price50</div>
+                            </div>
+                            <div class="p-1 col-3 col-lg-2 bg-light text-warning fw-bold">
+                                <div>@Model.Product.Price100</div>
+                            </div>
+                        </div>
+                        <div class="row pl-2 my-3">
+                            <p class="text-light lh-sm" style="font-size: 1.1rem;">@Model.Product.Description</p>
+                        </div>
+                        <div class="row pl-2 mb-3">
+                            <div class="col-md-4">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-warning text-dark border-0 fw-semibold" style="font-size: 1.1rem;"
+                                          id="inputGroup-sizing-default">
+                                        Count
+                                    </span>
+                                    <input asp-for="Quantity" type="number" min="1"
+                                           max="1000" class="form-control text-end" style="font-size: 1.1rem;"
+                                           aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 pb-1">
+                                <button type="submit" 
+                                        class="btn btn-warning bg-gradient text-dark w-100 py-2 text-uppercase fw-semibold" style="font-size: 1.1rem;">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

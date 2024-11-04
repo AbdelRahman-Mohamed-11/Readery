@@ -1,0 +1,14 @@
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\bin\Debug\net8.0\Readery.Core.deps.json
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\bin\Debug\net8.0\Readery.Core.runtimeconfig.json
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\bin\Debug\net8.0\Readery.Core.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\bin\Debug\net8.0\Readery.Core.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.csproj.AssemblyReference.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.AssemblyInfoInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.AssemblyInfo.cs
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.csproj.CoreCompileInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\refint\Readery.Core.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\Readery.Core.genruntimeconfig.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Core\obj\Debug\net8.0\ref\Readery.Core.dll

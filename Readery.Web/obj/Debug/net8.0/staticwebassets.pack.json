@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Readery.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Readery.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\OrderConfirmation\\3544858.jpg",
+      "PackagePath": "staticwebassets\\images\\OrderConfirmation\\3544858.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\290aeb1e-6a52-48bf-95c1-244e04695148_jane.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\290aeb1e-6a52-48bf-95c1-244e04695148_jane.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\2f8edd25-5120-449a-b625-1cabaf87b16b_IMG_1835.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\2f8edd25-5120-449a-b625-1cabaf87b16b_IMG_1835.jpeg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\35c684b1-a51d-4210-932a-4598f0089396_rwrwrwrw.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\35c684b1-a51d-4210-932a-4598f0089396_rwrwrwrw.jpeg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\39b88a82-c7d2-4fa8-8114-ebb5b2a35984_pride.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\39b88a82-c7d2-4fa8-8114-ebb5b2a35984_pride.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\3c395430-13d7-4399-9d7b-98cc0b68cdeb_Heart of Darkness.pmg.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3c395430-13d7-4399-9d7b-98cc0b68cdeb_Heart of Darkness.pmg.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\3caee483-1c48-4d09-af59-25fb285cf40a_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3caee483-1c48-4d09-af59-25fb285cf40a_2.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\59af8938-f18d-457a-a0c5-145708815e10_Brave new world.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\59af8938-f18d-457a-a0c5-145708815e10_Brave new world.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\5ff4a043-414d-4081-aeba-b4b0d693d6c3_Anna Karenina.png",
+      "PackagePath": "staticwebassets\\images\\products\\5ff4a043-414d-4081-aeba-b4b0d693d6c3_Anna Karenina.png"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\636b081b-68a3-46d9-8752-c0d9a2ed365a_crime and pun.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\636b081b-68a3-46d9-8752-c0d9a2ed365a_crime and pun.jfif"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\7c0b8f4c-ec8d-4863-9476-02ee45bb57b7_1984.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\7c0b8f4c-ec8d-4863-9476-02ee45bb57b7_1984.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\7fbb32d0-29ae-4729-ba9e-071d3dcca74e_catch.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\7fbb32d0-29ae-4729-ba9e-071d3dcca74e_catch.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\81f6114f-86d5-4926-84c8-e4e8f296bcd4_nnnn.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\81f6114f-86d5-4926-84c8-e4e8f296bcd4_nnnn.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\8234c84e-dc0e-4ea9-ad83-70d882fb4a7e_moby.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\8234c84e-dc0e-4ea9-ad83-70d882fb4a7e_moby.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\96c978c5-8ef4-4325-aa65-dc26f44030a5_9781466804807.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\96c978c5-8ef4-4325-aa65-dc26f44030a5_9781466804807.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\98da94d1-3717-4bfc-ace5-d7bde9ec00fd_les.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\98da94d1-3717-4bfc-ace5-d7bde9ec00fd_les.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\99a55298-470b-4929-84fe-859a1bb05cbd_3333333333.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\99a55298-470b-4929-84fe-859a1bb05cbd_3333333333.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\b77445ae-74c3-4b30-a3a7-b6db77f9a4e9_don qu.png",
+      "PackagePath": "staticwebassets\\images\\products\\b77445ae-74c3-4b30-a3a7-b6db77f9a4e9_don qu.png"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\bd6b2001-7f5c-4e6d-85e3-fb2d43b39bfa_The_Call_of_the_Wild_poster.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bd6b2001-7f5c-4e6d-85e3-fb2d43b39bfa_The_Call_of_the_Wild_poster.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\c4c2fad9-b17f-498c-a64a-effe70417af8_Fahrenheit_451_1st_ed_cover.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c4c2fad9-b17f-498c-a64a-effe70417af8_Fahrenheit_451_1st_ed_cover.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\c7e299c6-4f2d-48cd-95a9-d4a4f4f69c26_lorrdd.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c7e299c6-4f2d-48cd-95a9-d4a4f4f69c26_lorrdd.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\cc420104-c966-4dd8-96b7-1a8cbd185c60_onehun.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\cc420104-c966-4dd8-96b7-1a8cbd185c60_onehun.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\f2f2336d-b4c0-49bf-9d11-0eb2c122b33b_East_of_Eden_(1955_film_poster).jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f2f2336d-b4c0-49bf-9d11-0eb2c122b33b_East_of_Eden_(1955_film_poster).jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\f4fe0d6f-2e1b-45c1-a084-ca7e14747163_Bram_Stoker's_Dracula_(1992_film).jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f4fe0d6f-2e1b-45c1-a084-ca7e14747163_Bram_Stoker's_Dracula_(1992_film).jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\f5850e34-49b2-42ee-af9a-0df30b9fd4e8_9780141325545-jacket-large.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f5850e34-49b2-42ee-af9a-0df30b9fd4e8_9780141325545-jacket-large.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\images\\products\\fece5bc1-e8bf-469e-a6aa-ee792787e063_x6UCvTYzSSFJHv6BEvyZXSSEhvO.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fece5bc1-e8bf-469e-a6aa-ee792787e063_x6UCvTYzSSFJHv6BEvyZXSSEhvO.jpg"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\SeaSprayStay.Web\\SeaSprayStay.Web\\Readery.Web\\wwwroot\\uploads\\mypic.jpg",
+      "PackagePath": "staticwebassets\\uploads\\mypic.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Readery.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Readery.Web.props",
+      "PackagePath": "build\\Readery.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Readery.Web.props",
+      "PackagePath": "buildMultiTargeting\\Readery.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Readery.Web.props",
+      "PackagePath": "buildTransitive\\Readery.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

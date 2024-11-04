@@ -1,0 +1,16 @@
+﻿@model int
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <img src="~/images/OrderConfirmation/3544858.jpg" alt="Order Confirmation Image" class="card-img-top img-fluid" style="height: 250px; object-fit: cover;">
+        <div class="card-body text-center">
+            <h3 class="card-title text-primary">Thank You for Your Order!</h3>
+            <p class="card-text text-muted">Your order has been successfully placed.</p>
+
+            <div class="my-4">
+                <p><strong>Order Number: </strong>@Model</p>
+            </div>
+
+            <a asp-action="Index" class="btn btn-primary">Continue Shopping</a>
+        </div>
+    </div>
+</div>

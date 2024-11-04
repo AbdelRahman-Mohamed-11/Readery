@@ -1,0 +1,33 @@
+﻿@using Readery.Web.DTOS.Category.Create
+@model CreateCategoryDto
+<h1>Create</h1>
+
+<form method="post">
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="pb-1">Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" asp-for="Name" >
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="DisplayOrder" class="pb-1"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" 
+        asp-for="DisplayOrder">
+        <span asp-validation-for="DisplayOrder" class="text-danger" ></span>
+
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <button class="btn btn-primary form-control" type="submit">Create</button>
+        </div>
+
+        <div class="col-6">
+            <a class="btn btn-secondary form-control"  asp-controller="Category" asp-action="Index">back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+          
+        <partial name="_ValidationScriptsPartial">
+}

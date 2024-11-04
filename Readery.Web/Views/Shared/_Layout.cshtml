@@ -1,0 +1,265 @@
+﻿@using Readery.Core.Statics
+@{
+    var sessionCart = Context.Session.GetInt32(SessionsApp.SessionCart);
+    sessionCart = sessionCart ?? 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Readery.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Readery.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <style>
+
+        /* Add this to your existing CSS */
+        .cart-item {
+            display: flex; /* Use flexbox for alignment */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: space-between; /* Space out items */
+            width: 200px; /* Set a fixed width for the cart item */
+            height: 300px; /* Set a fixed height for consistency */
+            overflow: hidden; /* Hide overflow */
+            text-align: center; /* Center text */
+            border: 1px solid #ddd; /* Optional: Add border */
+            padding: 10px; /* Optional: Add some padding */
+            margin: 10px; /* Optional: Space between cart items */
+        }
+
+        .cart-item-title {
+            display: block; /* Ensure it takes a block */
+            max-width: 00px; /* Set a fixed width */
+            overflow: hidden; /* Hide overflow text */
+            text-overflow: ellipsis; /* Use ellipsis for overflowing text */
+            white-space: nowrap; /* Prevent text from wrapping */
+            font-size: 1rem; /* Font size */
+            font-weight: bold; /* Bold title */
+        }
+
+        .cart-description {
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Hide overflow */
+            text-overflow: ellipsis; /* Show ellipsis for overflow text */
+        }
+
+        /* You can add more styles for images, prices, etc. */
+        .cart-image {
+            max-width: 100%; /* Ensure image fits within the fixed width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Additional CSS for spacing and badge alignment */
+        .cart-icon {
+            position: relative;
+            margin-left: 15px;
+            display: flex;
+            align-items: center; /* Center items vertically */
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -5px; /* Adjust top position */
+            right: -10px; /* Adjust right position */
+            text-align: center;
+            height: 18px;
+            width: 18px;
+            font-size: 0.75rem;
+            padding: 1px;
+            border-radius: 50%;
+            background-color: red; /* Ensure visibility */
+            color: white; /* Text color */
+            font-weight: bold; /* Make the number bold */
+        }
+
+        /* Style for login and register buttons */
+        .auth-buttons .btn {
+            font-size: 0.9rem;
+            padding: 12px 15px;
+            border-radius: 15px;
+        }
+
+        .auth-buttons .btn-outline-primary {
+            border-color: #007bff;
+            color: #007bff;
+        }
+
+        .auth-buttons .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        /* Navbar styles for better presentation on small screens */
+        .navbar {
+            padding: 10px; /* Adjust padding */
+        }
+
+        .navbar-toggler {
+            border: none; /* Remove default border */
+        }
+
+        .navbar-toggler:focus {
+            outline: none; /* Remove outline on focus */
+        }
+
+        .navbar-collapse {
+            background-color: #fff; /* Background color for dropdown */
+        }
+
+        .navbar-nav .nav-link {
+            padding: 10px 15px; /* Increase padding for clickable area */
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #f8f9fa; /* Light gray on hover */
+            border-radius: 5px; /* Rounded corners on hover */
+        }
+
+        .dropdown-menu {
+            padding: 0; /* Remove default padding */
+        }
+
+        .dropdown-item {
+            padding: 10px 15px; /* Padding for dropdown items */
+        }
+
+        /* Mobile specific styles */
+        @@media (max-width: 576px) {
+            .navbar-nav {
+                text-align: center; /* Center align for mobile */
+            }
+
+            .navbar-collapse {
+                padding: 10px 0; /* Additional padding for mobile */
+            }
+
+            .navbar-nav .nav-item {
+                margin: 5px 0; /* Space between nav items */
+            }
+
+            .auth-buttons .btn {
+                margin: 5px 0; /* Space between login and register buttons on mobile */
+            }
+
+            /* Ensure dropdown items are full-width on mobile */
+            .dropdown-item {
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Style the cart icon for small screens */
+            .cart-icon {
+                width: 100%;
+                justify-content: center; /* Center the cart icon horizontally */
+                margin-top: 10px;
+            }
+
+            /* Adjust badge size for small screens */
+            .cart-badge {
+                height: 16px;
+                width: 16px;
+                font-size: 0.65rem;
+                right:45%;
+            }
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" 
+                asp-action="Index"><img src="~/images/logo/logo.jpg" style="width:40px;" /></a>
+
+                @if (User.Identity.IsAuthenticated){
+                 <a class="navbar-brand" asp-area="Account" asp-controller="Profile" asp-action="Index">Profile</a>
+                }
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a></li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Content Management
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Categories</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Products</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Companies</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Users</a></li>
+
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    <div class="navbar-nav auth-buttons">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a class="btn btn-outline-primary me-2" asp-area="Account" asp-controller="Account" asp-action="Login">Login</a>
+                            <a class="btn btn-primary" asp-area="Account" asp-controller="Account" asp-action="Register">Register</a>
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center me-3">
+                                <span class="me-3 fs-5 fw-bold">@User.Identity.Name</span>
+                                <a class="btn btn-danger" asp-area="Account" asp-controller="Account" asp-action="Logout">Logout</a>
+                            </div>
+                        }
+
+                        <!-- Cart Icon -->
+                        <div class="cart-icon">
+                            <a asp-area="Customer" asp-controller="Cart" asp-action="Index" class="nav-link text-dark">
+                                <i class="bi bi-cart-fill" style="font-size: 1.5rem;"></i>
+                                @await Component.InvokeAsync("Cart")
+                            </a>
+                            <span class="cart-badge">@sessionCart</span> <!-- Display session cart count -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_Notification" />
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-center">
+            &copy; 2024 - Readery
+        </div>
+    </footer>
+
+    <!-- Core scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- jQuery Validation scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/dfshq4n9469rwzrozxfvat0rlkbo3xz6phsaycothr2fu5uo/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,106 @@
+﻿@using Readery.Core.Models.viewModels
+@model ProductViewModel
+<h1>Create</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group mb-3">
+        <label asp-for="Title" class="pb-1">Title</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" asp-for="Title">
+        <span asp-validation-for="Title" class="text-danger"> </span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="pb-1">Description</label>
+        <textarea type="text" class="form-control" id="formGroupExampleInput" asp-for="Description"> </textarea>
+        <span asp-validation-for="Description" class="text-danger"> </span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Author" class="pb-1"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2"
+               asp-for="Author">
+        <span asp-validation-for="Author" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="ISBN" class="pb-1"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2"
+               asp-for="ISBN">
+        <span asp-validation-for="ISBN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="ListPrice" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="ListPrice">
+        <span asp-validation-for="ListPrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Price" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="Price">
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Price50" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="Price50">
+        <span asp-validation-for="Price50" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Price100" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="Price100">
+        <span asp-validation-for="Price100" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" asp-items="Model.CategoriesListItems" class="form-control">
+            <option selected disabled value="">Select Category</option> <!-- Default option -->
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+    <label>Upload Image</label>
+        <input type="file" name="Image" class="form-control" />
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <button class="btn btn-primary form-control" type="submit">Create</button>
+        </div>
+
+        <div class="col-6">
+            <a class="btn btn-secondary form-control" asp-controller="Product" asp-action="Index">back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: [
+                // Core editing features
+                'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'lists', 'media', 'table', 'visualblocks', 'wordcount',
+                // Your account includes a free trial of TinyMCE premium features
+                // Try the most popular premium features until Oct 5, 2024:
+                'checklist', 'mediaembed', 'casechange', 'export', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown',
+            ],
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [
+                { value: 'First.Name', title: 'First Name' },
+                { value: 'Email', title: 'Email' },
+            ],
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial">
+}

@@ -1,0 +1,37 @@
+﻿@model Readery.Core.DTOS.UserProfileViewModel
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Edit Profile</h2>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" class="form-control" required />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Profile Photo</label>
+            <img src="@Model.PhotoUrl" alt="Profile Photo" class="img-fluid rounded-circle border border-primary mb-2" style="width: 150px; height: 150px;" />
+            <input type="file" class="form-control" name="photo" accept="image/*" />
+            <span asp-validation-for="PhotoUrl" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="NewPassword" class="form-label">New Password</label>
+            <input asp-for="NewPassword" placeholder="Leave empty if you don't want to change" type="password" class="form-control" />
+            <span asp-validation-for="NewPassword" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

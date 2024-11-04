@@ -1,0 +1,76 @@
+﻿@using Readery.Core.Models.viewModels
+@model CompanyViewModel
+<h1>Create</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="pb-1">Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput"
+        asp-for="Name">
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="State" class="pb-1"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2"
+               asp-for="State">
+        <span asp-validation-for="State" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="StreetAddress" class="pb-1"></label>
+        <input type="text" class="form-control" id="formGroupExampleInput2"
+               asp-for="StreetAddress">
+        <span asp-validation-for="StreetAddress" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="PostalCode" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="PostalCode">
+        <span asp-validation-for="PostalCode" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="PhoneNumber" class="pb-1"></label>
+        <input type="number" class="form-control" id="formGroupExampleInput2"
+               asp-for="PhoneNumber">
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+
+    <div class="row">
+        <div class="col-6">
+            <button class="btn btn-primary form-control" type="submit">Create</button>
+        </div>
+
+        <div class="col-6">
+            <a class="btn btn-secondary form-control" asp-controller="Company" asp-action="Index">back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: [
+                // Core editing features
+                'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'lists', 'media', 'table', 'visualblocks', 'wordcount',
+                // Your account includes a free trial of TinyMCE premium features
+                // Try the most popular premium features until Oct 5, 2024:
+                'checklist', 'mediaembed', 'casechange', 'export', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown',
+            ],
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [
+                { value: 'First.Name', title: 'First Name' },
+                { value: 'Email', title: 'Email' },
+            ],
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial">
+}

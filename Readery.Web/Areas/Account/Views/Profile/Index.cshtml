@@ -1,0 +1,34 @@
+﻿@model Readery.Core.DTOS.UserProfileViewModel
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Your Profile</h2>
+    <div class="card">
+        <div class="card-body text-center">
+            <h4 class="card-title">@Model.Name</h4>
+            <div class="mb-4">
+                <img src="@Model.PhotoUrl" alt="Profile Photo" class="img-fluid rounded-circle border border-primary" style="width: 150px; height: 150px;" />
+            </div>
+            <a asp-action="Edit" class="btn btn-primary">Edit Profile</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .border-primary {
+        border-color: #007bff !important; /* Bootstrap primary color */
+    }
+</style>

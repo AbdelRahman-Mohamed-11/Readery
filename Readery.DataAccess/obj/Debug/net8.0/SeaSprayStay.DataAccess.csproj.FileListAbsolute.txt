@@ -1,0 +1,17 @@
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.DataAccess.deps.json
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.DataAccess.runtimeconfig.json
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.DataAccess.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.DataAccess.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.Core.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\bin\Debug\net8.0\Readery.Core.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.csproj.AssemblyReference.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.AssemblyInfoInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.AssemblyInfo.cs
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\SeaSpray.45E5ABCE.Up2Date
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\refint\Readery.DataAccess.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\Readery.DataAccess.genruntimeconfig.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.DataAccess\obj\Debug\net8.0\ref\Readery.DataAccess.dll

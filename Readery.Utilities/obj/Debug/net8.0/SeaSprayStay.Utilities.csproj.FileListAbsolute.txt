@@ -1,0 +1,12 @@
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\bin\Debug\net8.0\Readery.Utilities.deps.json
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\bin\Debug\net8.0\Readery.Utilities.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\bin\Debug\net8.0\Readery.Utilities.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.csproj.AssemblyReference.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.AssemblyInfoInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.AssemblyInfo.cs
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\refint\Readery.Utilities.dll
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\Readery.Utilities.pdb
+C:\Users\bodyb\source\repos\Readery.Web\Readery.Utilities\obj\Debug\net8.0\ref\Readery.Utilities.dll
